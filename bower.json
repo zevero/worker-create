@@ -1,0 +1,26 @@
+{
+  "name": "worker-create",
+  "main": "worker-create.js",
+  "homepage": "https://github.com/zevero/worker-create",
+  "authors": [
+    "Puschkarski Severin <severin@puschkarski.org>"
+  ],
+  "description": "Create a worker without using a seperate worker.js file",
+  "moduleType": [],
+  "keywords": [
+    "worker",
+    "create",
+    "createObjectURL",
+    "without",
+    "seperate",
+    "file"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
