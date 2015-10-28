@@ -19,5 +19,6 @@
 Worker.create = function(func_or_string){
     var str = (typeof func_or_string === 'function')?func_or_string.toString():func_or_string;
     var blob = new Blob(['\'use strict\';\nself.onmessage ='+str], { type: 'text/javascript' });
-    return window.URL.createObjectURL(blob);
+    var workerUrl = window.URL.createObjectURL(blob);
+    return Worker(workerUrl);
 };
