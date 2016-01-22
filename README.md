@@ -1,6 +1,9 @@
 # worker-create
 Create a worker without using a seperate worker.js file
 
+You are using some minifier to bundle all your Javascript files in an easy deployable min.js file and you want to include workers? Look no longer ... worker-create is for you!
+
+###Usage
 
  - Worker.create(funcOrString); //returns a worker
  - Worker.createURL(funcOrString); //returns an url
