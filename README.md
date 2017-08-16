@@ -3,13 +3,13 @@ Create a worker without using a seperate worker.js file
 
 You are using some minifier to bundle all your Javascript files in an easy deployable min.js file and you want to include workers? Look no longer ... worker-create is for you!
 
-###Usage
+### Usage
 
  - Worker.create(funcOrString);    //returns a worker
  - Worker.createURL(funcOrString); //returns an url
 
 
-###Usage examples for Worker.create:
+### Usage examples for Worker.create:
 
 Use when you only need one worker!
 
@@ -19,7 +19,7 @@ Use when you only need one worker!
     //or
     var worker = Worker.create("self.postMessage('Example post from Worker');"); //from string
 
-###Usage example for Worker.createURL:
+### Usage example for Worker.createURL:
 
 Use when you need multiple workers!
  
